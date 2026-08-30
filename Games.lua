@@ -12,7 +12,7 @@ local Title = Instance.new("TextLabel")
 local ToggleBtn = Instance.new("TextButton")
 local StatusLabel = Instance.new("TextLabel")
 
-ScreenGui.Name = "MM2_Helper"
+ScreenGui.Name = "CAT-HUB"
 ScreenGui.Parent = game:GetService("CoreGui") or LocalPlayer:WaitForChild("PlayerGui")
 
 MainFrame.Name = "MainFrame"
@@ -60,7 +60,7 @@ end)
 
 Title.Size = UDim2.new(1, 0, 0, 30)
 Title.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-Title.Text = "MM2 Helper Ultimate"
+Title.Text = "MM2 CAT HUB"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.Font = Enum.Font.SourceSansBold
 Title.TextSize = 16
